@@ -1,0 +1,51 @@
+body{
+  background-image: url(bilder/galaksen.jpg);
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+.galakseGrid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 15px;
+}
+
+ul{
+  color: white;
+}
+
+h2{
+  color: white;
+
+}
+
+#lister{
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+img{
+background-color: grey;
+}
+
+img:hover{
+  background-color: white;
+  transform: scale(1.5);
+}
+
+.galaksecontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: auto;
+  margin-left: auto;
+  grid-gap: 15px;
+}
+
+.galakser{
+  background-color: grey;
+  border-radius: 10px;
+}

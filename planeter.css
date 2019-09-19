@@ -1,0 +1,28 @@
+img:hover{
+  transform: scale(1.5);
+}
+
+.planetGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: auto;
+  margin-left: auto;
+  grid-gap: 15px;
+
+}
+
+.planetGrid img{
+  width: 100%;
+}
+
+.planet{
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.planet p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+}
